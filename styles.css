@@ -12,10 +12,36 @@ body{
   flex-wrap: wrap;
   width: 100%;
   height: 100vh;
-  background-image: url("img/hospital.jpg");
+  background: linear-gradient(to top right, rgb(7, 26, 216) 2%, rgba(23, 41, 21, 0.6) 46%), linear-gradient(to left, rgba(11, 0, 120, 0.31) 7%, rgba(170, 10, 140, 0.63) 50%), url(img/hospital.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.welcome-text{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.welcome-text p {
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: -28%;
+}
+h4.call {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* margin-left: 30px; */
+  position: absolute;
+  margin-left: 25%;
+  margin-top: -10%;
+  height: 50px;
+  width: fit-content;
+  border: 2px solid #FFF;
+  background-color: #FFF;
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 22px;
 }
 .navbar{
  display: flex;
@@ -167,6 +193,34 @@ p.vis{
       background-size: cover;
       background-position: center;
 
+    }
+    .welcome-text{
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto;
+    }
+    
+    .welcome-text p {
+        font-size: 24px;
+        color: aliceblue;
+        text-align: center;
+     
+    }
+    h4.call {
+      /* display: flex; */
+      /* flex-wrap: wrap; */
+      /* margin-left: 30px; */
+      /* position: absolute;
+      margin-left: 25%;
+      margin-top: -10%; */
+      height: 50px;
+      width: fit-content;
+      border: 2px solid #FFF;
+      background-color: #FFF;
+      border-radius: 20px;
+      padding: 12px;
+      font-size: 20px;
+      margin-top: auto;
     }
   }
   @media screen and (max-height: 450px) {
