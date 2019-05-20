@@ -182,12 +182,42 @@ h4.call {
   background-color: #000;
   display: flex;
   flex-wrap: wrap;
-  align-content: space-around;
+  align-content: space-evenly;
+}
+
+.care-image{
+  position: relative;
+}
+.care-image img{
+  vertical-align: middle;
+}
+.care-image .contenty{
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
+  color: #FFF;
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+}
+.contenty{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+}
+.contenty h2{
+  margin: auto;
+}
+.contenty:hover{
+  background: rgba(74, 117, 54, 0.411);
+  cursor: pointer;
 }
 .images{
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .images img{
   height: 155px;
@@ -236,6 +266,10 @@ blockquote p {
 p.vis{
   color: #ff8a00;
 }
+
+
+
+
 
 
   @media only screen and (max-width:767px) and (min-width:100px){
