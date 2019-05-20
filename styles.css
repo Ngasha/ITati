@@ -414,6 +414,12 @@ blockquote p {
       font-size: 20px;
       margin-top: 45px;
     }
+    h3.title {
+      font-size: 22px;
+      float: left;
+      margin: auto;
+      margin-left: 10px;
+  }
   }
   @media screen and (max-height: 450px) {
 
