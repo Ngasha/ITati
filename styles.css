@@ -126,7 +126,6 @@ h4.call {
  /* projects project-n */
  .projects-n {
   height: 100%;
-  min-height: -webkit-fill-available;
   background-color: #FFF;
   /* background: linear-gradient(to top left, rgb(251, 253, 253) 44%, rgba(201, 202, 202, 0.336) 1%),
   linear-gradient(to bottom left, rgb(209, 206, 206) 1%, rgba(214, 214, 214, 0.815) 28%); */
@@ -177,6 +176,9 @@ h4.call {
   margin: auto;
   margin-top: 30px;
 }
+/* button#mybtn{
+  display: none;
+} */
 /* testimony container */
 .test-container{
   height: 83vh;
@@ -268,7 +270,15 @@ p.vis{
   color: #ff8a00;
 }
 
-
+#more {display: none;}
+#mybtn{
+height:40px;
+width:120px;
+border-radius:10px;
+border:2px solid green;
+padding:6px;
+background-color:green;
+}
 
 
 
@@ -319,7 +329,16 @@ p.vis{
       flex-wrap: wrap;
       justify-content: center;
     }
-
+    /* read moree */
+    #more {display: none;}
+    #mybtn{
+    height:40px;
+    width:120px;
+    border-radius:10px;
+    border:2px solid green;
+    padding:6px;
+    background-color:green;
+    }
     
 .services-container{
   height: 16vh;
