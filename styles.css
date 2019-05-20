@@ -276,10 +276,15 @@ p.vis{
     .overlay{
       display: flex;
     }
-    span{
+    span {
       display: flex;
       z-index: 3;
-    }
+      background: azure;
+      color: black;
+      width: 100%;
+      padding: 15px;
+      justify-content: flex-end;
+  }
     .navbar{
       display: none;
     }
@@ -292,7 +297,9 @@ p.vis{
     .header-container{
       background-attachment: fixed;
       background-size: cover;
+      font-family: monospace;
       background-position: center;
+      height:404px;
 
     }
     .welcome-text{
@@ -300,7 +307,12 @@ p.vis{
       flex-wrap: wrap;
       margin: auto;
     }
-
+    .welcome-text p {
+      font-size: 24px;
+      color: aliceblue;
+      text-align: center;
+      padding: 22px;
+  }
     .images{
       display: flex;
       flex-wrap: wrap;
@@ -380,12 +392,12 @@ blockquote p {
 	padding:20px;
 }
     
-    .welcome-text p {
+    /* .welcome-text p {
         font-size: 24px;
         color: aliceblue;
         text-align: center;
      
-    }
+    } */
     h4.call {
       /* display: flex; */
       /* flex-wrap: wrap; */
@@ -400,7 +412,7 @@ blockquote p {
       border-radius: 20px;
       padding: 12px;
       font-size: 20px;
-      margin-top: auto;
+      margin-top: 45px;
     }
   }
   @media screen and (max-height: 450px) {
