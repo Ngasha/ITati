@@ -165,10 +165,11 @@ h4.call {
   /* margin-top: 10px; */
 }
 .services-container h3{
+  background:linear-gradient(to right,#ff8a00,#082387);
   height: 50px;
-  width: 26%;
-  border: 2px solid #4CAF50;
-  border-radius: 14px;
+  width: 24%;
+  border: 2px solid none;
+  border-radius: 22px;
   text-align: center;
   font-size: 30px;
   color: #FFF;
@@ -367,8 +368,8 @@ background-color:green;
           .services-container h3{
             height: 50px;
             width: 80%;
-            border: 2px solid #4CAF50;
-            border-radius: 14px;
+            border: 2px solid none;
+            border-radius: 20px;
             text-align: center;
             font-size: 28px;
             color: #FFF;
@@ -640,6 +641,8 @@ section{
     margin: auto;
     justify-content: center;
   }
-  .footer-content p{
-    color: #FFF;
+  p.tecnotia{
+
+    margin: auto;
+    color:#FFF;
   }
