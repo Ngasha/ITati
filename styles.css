@@ -12,7 +12,7 @@ body{
   flex-wrap: wrap;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to top right, rgb(7, 26, 216) 2%, rgba(23, 41, 21, 0.6) 46%), linear-gradient(to left, rgba(11, 0, 120, 0.31) 7%, rgba(170, 10, 140, 0.63) 50%), url(img/hospital.jpg);
+  background: linear-gradient(to top right, rgb(7, 26, 216) 2%, rgba(23, 41, 21, 0.6) 46%), linear-gradient(to left, rgba(11, 0, 120, 0.31) 7%, rgba(170, 10, 140, 0.63) 50%), url(img/dame.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -486,7 +486,7 @@ section{
   width: 100%;
   height: 100%;
   position: absolute;
-  background-image: url("img/hospital.jpg");
+  background-image: url("img/dame.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
