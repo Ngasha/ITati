@@ -418,6 +418,8 @@ background-color:green;
                 padding: 22px;
             }
               .images{
+                padding-top: 20px;
+                margin: auto;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
@@ -467,10 +469,7 @@ background-color:green;
             /* flex-direction: row-reverse;
             align-content: space-around; */
           }
-          .images{
-            display: flex;
-            flex-wrap: wrap;
-          }
+       
           .web {
             height: fit-content;
             width:auto;
