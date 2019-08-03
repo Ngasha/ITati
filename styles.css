@@ -727,3 +727,19 @@ section{
     margin: auto;
     color:#FFF;
   }
+
+  /* contenty details css */
+  .contenty1{
+    background: rgba(0, 0, 0, 0);
+    background: rgba(38, 179, 87, 0.8);
+    font-family: monospace;
+    text-align: center;
+    height: 43px;
+    margin-left: 6px;
+    margin-right: 43px;
+    position: absolute;
+    bottom: 0;
+    width: 215px;
+    height: auto;
+    color: #FFF;
+  }
