@@ -655,8 +655,10 @@ section{
     border: 1px solid none;
     border-radius: 12px;
     text-align: center;
-    color: #FFF;
+    color: #111;
     margin: 20px;
+    font-family: 'Courgette', cursive;
+
   }
   .slides{
     display: flex;
