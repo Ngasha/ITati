@@ -220,11 +220,13 @@ h4.call {
   position: absolute;
   bottom: 0;
   background: rgba(0, 0, 0, 0);
-  background: rgb(3, 1, 17, 0.6);
+  background: rgba(38, 179, 87, 0.6);
   color: #FFF;
   width: 100%;
   padding: 10px;
-  height: 100%;
+  font-family: monospace;
+  font-size: 22px;
+  height: auto;
 }
 .contenty{
   display: flex;
