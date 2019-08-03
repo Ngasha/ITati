@@ -467,6 +467,10 @@ background-color:green;
             /* flex-direction: row-reverse;
             align-content: space-around; */
           }
+          .images{
+            display: flex;
+            flex-wrap: wrap;
+          }
           .web {
             height: fit-content;
             width:auto;
