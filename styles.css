@@ -362,12 +362,22 @@ background-color:green;
     margin: auto;
   }
 
-  .call{
+
+  .call,
+  .services-container h3{
+    background:linear-gradient(to right,#ff8a00,#082387);
     height: 60px;
     width: fit-content;
-    border-radius: 44%;
+    border: 1px solid none;
+    border-radius: 26px;
+    text-align: center;
+    font-size: 30px;
+    color: #FFF;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 36px;
   }
-
 }
   @media only screen and (max-width:767px) and (min-width:100px){
 
