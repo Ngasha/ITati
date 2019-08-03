@@ -363,11 +363,17 @@ background-color:green;
   }
 
 
-  .call,
+  .call{
+    height: 62px;
+    width: 290px;
+    border-radius: 25px;
+    border: 1px solid #FFF;
+    background-color: #FFF;
+  }
   .services-container h3{
     background:linear-gradient(to right,#ff8a00,#082387);
-    height: 60px;
-    width: fit-content;
+    height: 62px;
+    width: 290px;
     border: 1px solid none;
     border-radius: 26px;
     text-align: center;
