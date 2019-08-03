@@ -365,7 +365,7 @@ background-color:green;
 
   .call{
     height: 62px;
-    width: 290px;
+    width: fit-content;
     border-radius: 25px;
     border: 1px solid #FFF;
     background-color: #FFF;
