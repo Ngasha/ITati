@@ -422,16 +422,7 @@ background-color:green;
                 justify-content: center;
               }
               /* read moree */
-              #more {display: none;}
-              #mybtn{
-              height:40px;
-              width:120px;
-              border-radius:10px;
-              border:2px solid green;
-              padding:6px;
-              background-color:green;
-              }
-              
+      
           .services-container{
             height: 16vh;
             background-color: #030111;
@@ -455,8 +446,8 @@ background-color:green;
 
               /* testimony container */
           .test-container{
-            /* height: 83vh;
-            background-color: #FFF; */
+             height: 82vh;
+            background-color: #FFF; 
             display: flex;
             flex-wrap: wrap;
             min-height: fit-content;
