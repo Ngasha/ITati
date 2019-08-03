@@ -357,6 +357,9 @@ background-color:green;
   }
   .projects-n{
     width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
   }
 
 
