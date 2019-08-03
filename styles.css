@@ -244,6 +244,7 @@ h4.call {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  height: fit-content;
 }
 .images img{
   height: 155px;
@@ -422,6 +423,7 @@ background-color:green;
                 margin: auto;
                 display: flex;
                 flex-wrap: wrap;
+                height: fit-content;
                 justify-content: center;
               }
               /* read moree */
