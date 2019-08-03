@@ -319,7 +319,7 @@ background-color:green;
     flex-wrap: wrap;
   }
 } */
-@media only screen and (min-width:767px){
+@media only screen and (min-width:767px) and (max-width:1024px){
   .navbar{
     display: flex;
     flex-wrap: wrap;
@@ -349,8 +349,15 @@ background-color:green;
      height: 60px;
    }
    
-
-
+   .pro-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-bottom: 12px;
+  }
+  .projects-n{
+    width: 80%;
+  }
 
 
 
