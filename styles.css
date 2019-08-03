@@ -245,6 +245,7 @@ h4.call {
   flex-wrap: wrap;
   justify-content: center;
   height: fit-content;
+  background-color: beige;
 }
 .images img{
   height: 155px;
@@ -377,6 +378,11 @@ background-color:green;
   }
 }
   @media only screen and (max-width:767px) and (min-width:100px){
+              .solutionsy{
+                display: flex;
+                flex-wrap: wrap;
+                height: 90vh;
+              }
 
               .overlay{
                 display: flex;
@@ -425,6 +431,7 @@ background-color:green;
                 flex-wrap: wrap;
                 height: fit-content;
                 justify-content: center;
+                background-color: beige;
               }
               /* read moree */
       
@@ -747,4 +754,13 @@ section{
     width: 215px;
     height: auto;
     color: #FFF;
+  }
+
+
+  /* our solutions */
+  .solutionsy{
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+    background-color: beige;
   }
