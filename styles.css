@@ -356,13 +356,17 @@ background-color:green;
     margin-bottom: 12px;
   }
   .projects-n{
-    width: 80%;
+    width: 88%;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: auto;
   }
 
-
+  .call{
+    height: 60px;
+    width: fit-content;
+    border-radius: 44%;
+  }
 
 }
   @media only screen and (max-width:767px) and (min-width:100px){
