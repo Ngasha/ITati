@@ -3,10 +3,16 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Grenze|Shadows+Into+Light&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Smartsupp Live Chat script -->
 <!-- <script type="text/javascript">
   var _smartsupp = _smartsupp || {};
@@ -49,52 +55,71 @@
         })
         </script>
 
-        <span onclick="openNav()"><h3 class="title">Kentech</h3>&#9776;</span>
+        <span onclick="openNav()"><h3 class="title7">Nainet</h3>&#9776;</span>
         <div class="header-container">
           <div class="navbar">
-            <a class="active" href="#">Kentech</a>
-            <a href="#">Home</a> 
-            <a href="#about">About Us</a> 
-            <a href="#">Services</a>
-            <a href="#">Testimony</a>
-            <a href="#">Contact</a> 
+            <div class="active" href="#">Nainet</div>
+			  <div class="menu-txti">
+				<a href="#">Home</a> 
+				<a href="#about">About Us</a> 
+				<a href="#">Services</a>
+				<a href="#">Testimony</a>
+				<a href="#">Contact</a> 
+				</div>
           </div>
           <div class="welcome-text">
             <p>Empowering entrepreneurs with Quality IT support </p>
             <h4 class="call">Reach Us</h4>
           </div>
         </div>
-<!-- 
-        <div class="about-n">
-              <h2>About Me</h2>
-              <img src="weru.jpg" alt="weru" class="weru-n">
-              <p>Passionate front-end web Developer Nairobi, Kenya. loves learning new things and also very innovative. An entrepreneur and a strategist<br/>
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do sunt explicabo. Nemo enim ipsam et dolore magnam aliquam quaerat voluptatem.</p>
-        </div> -->
-        <div id="about" class="profile"><h1 class="ab">About us</h1></div>
+        <div class="aboutUS">
+          <div class="container text-center">
+            <h2 class="title">About Us</h2>
+            <div class="row text-center">
+              <div class="col-md-6">
+                  <p>Due to the large number of unemployment in Kenya, Our Team has be able to bring together
+                      a group of professional IT graduates with different qualification to help in solving 
+                      IT problems in companies.
+                    </p>
+                    <h3>WHY US</h3>
+                    <p>We  has significant experience across industry sectors, products and services,
+                      with substantial work done in providing professional services, computer solutions and IT support.
+                    </p>
+                    <p>Our team will take your problem seriously and conduct 
+                      comprehensive research to come up with a long lasting solution that will help your business to grow.
+                    </p>
+                    <h3>VISION</h3><br/>
+                    <p class="vis">&#9758;Our vision is to be Kenya’s number one company in providing IT support to micro and macro businesses.</p>
+  
+                    <h3>MISSION</h3>
+                    <p class="vis">&#9758;Our mission is to enable businesses to meet there goals in providing quality products and 
+                      services to their clients through our IT support.
+                    </p>
+              </div>
+              <div class="col-md-6 fruits">
+                <h6 class="m1">Thinkers</h6>
+                <h6 class="m2">Innovators</h6>
+                <h6 class="m3">Creators</h6>
+                <h6 class="m4">Problem solvers</h6>
+                <h6 class="m5">Accurate</h6>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+    
+        <!-- <div id="about" class="profile"><h1 class="ab">About us</h1></div>
           <div class="projects-n">
               <div class="pro-content">
-                  <P>Due to the large number of unemployment in Kenya, Our Team has be able to bring together
-                    a group of professional IT graduates with different qualification to help in solving 
-                    IT problems in companies.
-                  </p>
-                  <h3>WHY US</h3>
-                  <p>We  has significant experience across industry sectors, products and services,
-                    with substantial work done in providing professional services, computer solutions and IT support.
-                  </p>
-                  <p>Our team will take your problem seriously and conduct 
-                    comprehensive research to come up with a long lasting solution that will help your business to grow.
-                  </p>
-                  <h3>VISION</h3><br/>
-                  <p class="vis">&#9758;Our vision is to be Kenya’s number one company in providing IT support to micro and macro businesses.</p>
-
-                  <h3>MISSION</h3>
-                  <p class="vis">&#9758;Our mission is to enable businesses to meet there goals in providing quality products and 
-                    services to their clients through our IT support.
-                  </p>
+                  
               </div>
           </div>
-        </div>
+        </div> -->
     
       <div class="services-container">
         <h3>Our Solutions &#9759;</h3>
@@ -110,11 +135,12 @@
 
           </div>
           <div class="care-image">
-              <img src="img/buy.jpg" alt="network">
+              <img src="img/buy.jpg" alt="network" class="buy">
               <div class="contenty1">
                   <h2>Buy PC</h2>
               </div>
           </div>
+          <!-- bored -->
           <div class="care-image">
               <img src="img/physical.jpg" alt="physical">
               <div class="contenty1">
@@ -136,7 +162,7 @@
           <div class="care-image">
               <img src="img/cctv.jpg" alt="network">
               <div class="contenty1">
-                  <h2>HD CCTV installation</h2>
+                  <h2>HD CCTV Installation</h2>
               </div>
           </div>
           <div class="care-image">
@@ -151,40 +177,49 @@
                   <h2>Web development</h2>
               </div>
           </div>
-        </div>
       </div>
     
       <!-- <div class="test-container">
         
       </div> -->
-      <div class="services-container">
-          <h3>Testimonials &#9759;</h3>
-      </div>
-      <div class="slider">
-        <div class="slides">
-          <div class="testmony1 testmony">
-            <img src="img/cctv.jpg" alt="testimny">
-            <h5>James Wanderi</h5>
-            <h4>&#11088;&#11088;&#11088;&#11088; &#10032;</h4>
-            <p>We loved working with this company so much. They made things so easy for us and got us a great deal. We couldn't be more happy! We highly recommend 
-              this company and will be doing business with them in the future.
-            </p>
-          </div>
-          <div class="testmony2 testmony">
-              <img src="img/laptop.png" alt="testimny">
+      <!----------- testimonials---------------------- -->
+      <div class="clients">
+        <div class="container text-center">
+            <h2 class="title test-tito">Testimonials</h2>
+          <div class="row text-center">
+            <div class="col-md-4 test-line">
+              <img src="img/cctv.jpg" alt="testimny" class="client1">
+              <h5>James Wanderi</h5>
+              <h4>&#11088;&#11088;&#11088;&#11088; &#10032;</h4>
+              <p>We loved working with this company so much. They made things so easy for us and got us a great deal. We couldn't be more happy! We highly recommend 
+                this company and will be doing business with them in the future.
+              </p>
+           </div>
+           <div class="col-md-4 test-line">
+              <img src="img/laptop.png" alt="testimny" class="client1">
               <h5>phoebe joy</h5>
               <h4>&#11088;&#11088;&#11088;&#11088; &#10032;</h4>
               <p>He promptly completed the task at hand and communicates really well till the project reaches the finishing line. 
                 I was pleased with his creative design and will definitely be hiring him again.
               </p>
-            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+          
           <!-- <div class="testmony1 testmony">
                 <p>The company offers the best quality it services, we loved there mode of operation and communication. 
                   We definitely will be looking forward to working with them in future.
                 </p>
           </div> -->
-        </div>
-      </div>
+          <section>
+            <div class="hero">
+              <img src="img/computer.jpg" alt="testimny">
+              <h1 class="headliner">What clients say</h1>
+            </div>
+          </section>
+          <div class="slida"></div>
+          
       <footer>
         <div class="footer-content">
             <a href="#" class="fa fa-facebook"></a>
@@ -192,8 +227,12 @@
             <a href="#" class="fa fa-google"></a>
             <a href="#" class="fa fa-linkedin"></a>
         </div>
-        <p class="copy">&copy;Powered by Kentech services<br/>&copy;Copyright.</p>
-        <!-- <p>&copy;2019 Kentech, <br/>&copy;Copyright.</p> -->
+        <p class="copy">&copy;Powered by Nainet services<br/>&copy;Copyright.</p>
+        <!-- <p>&copy;2019 Nainet, <br/>&copy;Copyright.</p> -->
+
       </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+      <script src="main.js"></script>
 </body>
 </html>
